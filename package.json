@@ -1,0 +1,43 @@
+{
+  "name": "goddamn-javascript-eslint",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "test": "babel sample.js"
+  },
+  "bin": {
+    "goddamn-javascript-eslint": "bin/init"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.52",
+    "@babel/core": "^7.0.0-beta.52",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.52",
+    "@babel/plugin-proposal-decorators": "^7.0.0-beta.52",
+    "@babel/plugin-transform-modules-commonjs": "^7.0.0-beta.52",
+    "@babel/plugin-transform-react-constant-elements": "^7.0.0-beta.52",
+    "@babel/plugin-transform-react-jsx": "^7.0.0-beta.52",
+    "@babel/plugin-transform-runtime": "^7.0.0-beta.52",
+    "@babel/polyfill": "^7.0.0-beta.52",
+    "@babel/preset-env": "^7.0.0-beta.52",
+    "@babel/preset-react": "^7.0.0-beta.52",
+    "@babel/preset-stage-0": "^7.0.0-beta.52",
+    "@babel/runtime": "^7.0.0-beta.52",
+    "babel-jest": "^23.0.1",
+    "babel-loader": "^8.0.0-beta.2",
+  },
+  "dependencies": {
+    "babel-eslint": "^8.2.4",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-flowtype": "^2.33.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^21.21.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.11.1",
+    "prettier": "^1.13.7"
+  }
+}
